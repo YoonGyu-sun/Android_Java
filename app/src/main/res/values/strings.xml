@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sensor</string>
+
+    <string name="hello_world">센서 테스트</string>
+    <string name="Button1">메인</string>
+    <string name="Button2">보기</string>
+    <string name="Button3">종료</string>
+    <string name="Button4">전송</string>
+    <string name="Button5">뒤로가기</string>
+    <string name="randomValue">랜덤한값 넣을 곳</string>
+</resources>
