@@ -8,6 +8,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.example.sensor.databinding.ActivityMainBinding;
 
+import java.security.Permission;
+
 public class MainActivity extends Activity {
 
     private ActivityMainBinding binding; // 바인딩 객체 선언
@@ -15,7 +17,6 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         binding = ActivityMainBinding.inflate(getLayoutInflater()); // 바인딩 초기화
         setContentView(binding.getRoot()); // 바인딩한 뷰를 액티비티 콘텐츠 뷰로 설정
 
@@ -42,7 +43,6 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
-
 
         binding.button3.setOnClickListener(new View.OnClickListener() {
             @Override

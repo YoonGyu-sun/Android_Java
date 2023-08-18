@@ -3,8 +3,9 @@
     package="com.example.sensor" >
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-
     <uses-feature android:name="android.hardware.type.watch" />
+    <!--        //추가-->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
 
     <application
         android:allowBackup="true"
@@ -35,12 +36,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".FirstActivity"
             android:exported="true"
             android:label="First Activity"
             >
         </activity>
-    </application>
 
+    </application>
 </manifest>
