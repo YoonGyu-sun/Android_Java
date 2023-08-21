@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+
+
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -15,7 +17,6 @@ import com.example.sensor.databinding.ActivityMainBinding;
 
 import java.security.Permission;
 public class MainActivity extends Activity {
-
 
     private static final int MY_PERMISSIONS_REQUEST_ACTIVITY_RECOGNITION = 1;
 

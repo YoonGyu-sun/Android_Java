@@ -16,7 +16,7 @@
 
 
     <TextView
-        android:id="@+id/valueTextView1"
+        android:id="@+id/stepCountTextView"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -28,9 +28,6 @@
         android:layout_gravity="center_horizontal|bottom"
         android:orientation="horizontal"
         android:layout_marginTop="20dp">
-
-
-
         <!-- 버튼 순서 변경 -->
         <Button
             android:id="@+id/button4"
@@ -51,8 +48,5 @@
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="119dp"
             />
-
     </LinearLayout>
-
-
 </LinearLayout>
